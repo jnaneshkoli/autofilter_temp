@@ -259,9 +259,9 @@ async def start(client:Client, message):
             buttons = [[
                 InlineKeyboardButton(text="♻️ ᴠᴇʀɪғʏ ♻️", url=verify)
             ],[
-                InlineKeyboardButton(text="ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ ❓", url=settings['tutorial']),
+                InlineKeyboardButton(text="❓ ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ ❓", url=settings['tutorial']),
             ],[
-                InlineKeyboardButton(text="💸 Buy Premium ❌ link 💸, url=f"https://t.me/+qBu1Y-tOm-1lYWY1"),
+                InlineKeyboardButton(text="💸 Buy Premium ❌ link 💸, url=f"http://t.me/Premium_Movies_Membership_bot"),
             ]]
             reply_markup=InlineKeyboardMarkup(buttons)
             if await db.user_verified(user_id): 
@@ -297,7 +297,7 @@ async def start(client:Client, message):
                 file_caption=file.caption
             )
             btn = [[
-                InlineKeyboardButton("✛ ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ ✛", callback_data=f'stream#{file.file_id}')
+                InlineKeyboardButton("👀 Watch Online  □ Download 📥", callback_data=f'stream#{file.file_id}')
             ]]
             toDel = await client.send_cached_media(
                 chat_id=message.from_user.id,
@@ -337,7 +337,7 @@ async def start(client:Client, message):
         file_caption=files.caption
     )
     btn = [[
-        InlineKeyboardButton("✛ ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ ✛", callback_data=f'stream#{file_id}')
+        InlineKeyboardButton("👀 Watch Online  □ Download 📥", callback_data=f'stream#{file_id}')
     ]]
     toDel=await client.send_cached_media(
         chat_id=message.from_user.id,
