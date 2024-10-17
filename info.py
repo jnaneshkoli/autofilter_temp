@@ -42,10 +42,10 @@ SHORTENER_API = environ.get("SHORTENER_API", "028dcc84c348788150cdbc48331a813bf7
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'publicearn.com')
 SHORTENER_API2 = environ.get("SHORTENER_API2", "62ac53fff7a3c652ade8a23705049a63c3d0c08e")
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'teraboxlinks.com')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "f287e7e9b1a23c34f542f77787d39607cae36a4d")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'shortslink3.online')
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
-THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
+SHORTENER_API3 = environ.get("SHORTENER_API3", "028dcc84c348788150cdbc48331a813bf7a8d257")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'publicearn.com')
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "43200"))
+THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "43200"))
 
 LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam", "bengali", "marathi", "gujarati", "punjabi"]
 QUALITIES = ["HdRip","web-dl" ,"bluray", "hdr", "fhd" , "240p", "360p", "480p", "540p", "720p", "960p", "1080p", "1440p", "2K", "2160p", "4k", "5K", "8K"]
