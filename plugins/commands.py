@@ -179,7 +179,15 @@ async def start(client:Client, message):
             logger.error("Make Sure Bot Is Admin In Forcesub Channel")
             return
         btn = [[
-            InlineKeyboardButton("🎗️ ᴊᴏɪɴ ɴᴏᴡ 🎗️", url=invite_link.invite_link)
+            InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/+nlo1GNVDGIczZWE9"),
+        ],[
+            InlineKeyboardButton(" ᴊᴏɪɴ ɴᴏᴡ ", url=invite_link.invite_link)
+        ],[
+            InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/+RowdIa84tBg1MDI1"),
+            InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/+M5zdwhf__4JlY2Jl"),
+            InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/+Neof3I3gyhdjZmJl"),
+        ],[
+            InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/+qBu1Y-tOm-1lYWY1"),
         ]]
 
         if message.command[1] != "subscribe":
