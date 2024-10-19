@@ -297,7 +297,7 @@ async def start(client:Client, message):
                 file_caption=file.caption
             )
             btn = [[
-                InlineKeyboardButton("👀 Watch Online  □ Download 📥", callback_data=f'stream#{file.file_id}')
+                InlineKeyboardButton("👀 Watch Online  □ Download 📥", url=f"https://t.me/Rockers_File_To_Stream_Bot")
             ]]
             toDel = await client.send_cached_media(
                 chat_id=message.from_user.id,
@@ -337,7 +337,7 @@ async def start(client:Client, message):
         file_caption=files.caption
     )
     btn = [[
-        InlineKeyboardButton("👀 Watch Online  □ Download 📥", callback_data=f'stream#{file_id}')
+        InlineKeyboardButton("👀 Watch Online  □ Download 📥", url=f"https://t.me/Rockers_File_To_Stream_Bot")
     ]]
     toDel=await client.send_cached_media(
         chat_id=message.from_user.id,
