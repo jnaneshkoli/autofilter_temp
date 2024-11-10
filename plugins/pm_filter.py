@@ -83,6 +83,7 @@ async def group_search(client, message):
         elif re.findall(r'https?://\S+|www\.\S+|t\.me/\S+', message.text):
     if await is_check_admin(client, message.chat.id, message.from_user.id):
         return
+	    
     await message.delete()
     reply_message = await message.reply("<b>sᴇɴᴅɪɴɢ ʟɪɴᴋ ɪsɴ'ᴛ ᴀʟʟᴏᴡᴇᴅ ʜᴇʀᴇ ❌🤞🏻</b>")
     await asyncio.sleep(60)
