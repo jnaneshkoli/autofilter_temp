@@ -36,7 +36,7 @@ STICKERS_IDS = ('CAACAgUAAxkBAAKEAAFnE3RBUufpyAy8JfI0tL4B4K1nWQACZQwAAgF92Vb1aYK
 FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '80'))
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1001557802343'))
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/How_to_open_link_rockersbot")
+TUTORIAL = environ.get("TUTORIAL", "https://youtu.be/IK3Dx221Gos?si=uBhDd6MOsORYgey2")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://files.catbox.moe/tv9fg5.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "67921e2a3b356b30e41502b14401f0f608bf6d19")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'short2url.in')
