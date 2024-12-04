@@ -13,16 +13,16 @@ def is_enabled(value, default):
         return default
 
 #main variables
-API_ID = int(environ.get('API_ID', '22231458'))
-API_HASH = environ.get('API_HASH', 'f7cb57cc5f91c944f3ddeb8a60a99466')
-BOT_TOKEN = environ.get('BOT_TOKEN', '6793924725:AAHCTNk2dQyXw5DrvxTnNBAEbHxWZOVih30')
+API_ID = int(environ.get('API_ID', '22458'))
+API_HASH = environ.get('API_HASH', 'f7cb57cc5c944f3ddeb8a60a99466')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6793:AAHCTNk2dQyXw5DrvxTnNBAEbHxWZOVih30')
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6331847574').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/ROCKERSBACKUP")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001557802343'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+RowdIa84tBg1MDI1')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001557802343').split()]
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://strong:strong@cluster0.ix7usa3.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv:ong@cluster0.ix7usa3.mongodb.net/?retryWrites=true&w=majority")
 
 DATABASE_NAME = environ.get('DATABASE_NAME', "TELEGRAM_BOT_INFO")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
